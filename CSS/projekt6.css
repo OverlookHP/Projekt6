@@ -13,6 +13,8 @@
 
 body{
   background-image: url(../IMG/background3.png);
+  background-repeat: no-repeat;
+  
 }
 
 .nav-toggle{
@@ -87,6 +89,7 @@ nav a:hover::before {
     width: 100%;
     height: 200px;
     background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../IMG/banner.png);
+    background-repeat: no-repeat;
     margin-bottom: 10%;
     
 }
@@ -108,7 +111,6 @@ nav a:hover::before {
     margin-bottom: 4%;
     display: grid;
     grid-template-columns:  1fr auto minmax(600px, 3fr) 1fr;
-
 }
 /* TILFØJ FLEXBOX */
 .content1{
@@ -165,9 +167,10 @@ nav a:hover::before {
     width: 33.333333%;
 }
 
-.inline img{
+/* .inline img{
   border-radius: 50%;
-}
+  
+} */
 
 
   .prev, .next {
@@ -221,17 +224,19 @@ nav a:hover::before {
 
 .content2-section h2{
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 500;
     color: #111;
     padding-bottom: 20px;
+    
 }
 
 .content2-section h3{
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 500;
     color: #111;
     line-height: 23px;
     padding-bottom: 20px;
+    
 }
 
 .produkt-btn{
@@ -241,8 +246,8 @@ nav a:hover::before {
     border-radius: 25px;
     font-size: 16px;
     border:2px solid #000;
-    background-color: #64A551;
-    color: #000;
+    background-color: #2e3d2a;
+    color: #fff;
     margin-left: 7%;
 }
 
@@ -279,7 +284,7 @@ nav a:hover::before {
 
 .content3 h2{
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .content3 h3{
@@ -299,6 +304,7 @@ footer{
   width: 100%;
   height: 450px;
  background-image: url(../IMG/footer.png);
+ background-repeat: no-repeat;
 }
 
 .facebook, .mail, .youtube{
