@@ -304,9 +304,19 @@ nav a:hover::before {
   grid-column: 3 / 4;
   display: flex;
   justify-content: flex-end;
+  frameborder="0";
+  style="border: 0;"
 }  
 
+.content3-video iframe{
+  frameborder="0";
+  style="border: 0;"
+  border: none;
+} 
 
+.img-width-60 {
+  width: 60%;
+}
 
 footer{
   width: 100%;
@@ -532,7 +542,7 @@ footer h3{
   bottom: 0;
   width: 400px;
   padding: 15px;
-  background: #f45b69;
+  background: #5B9A48;
 }
 
 .timeline ul li div::before {
@@ -551,7 +561,7 @@ footer h3{
 .timeline ul li:nth-child(odd) div::before {
   left: -15px;
   border-width: 8px 16px 8px 0;
-  border-color: transparent #f45b69 transparent transparent;
+  border-color: transparent #5B9A48 transparent transparent;
 }
 
 .timeline ul li:nth-child(even) div {
@@ -561,7 +571,7 @@ footer h3{
 .timeline ul li:nth-child(even) div::before {
   right: -15px;
   border-width: 8px 0 8px 16px;
-  border-color: transparent transparent transparent #f45b69;
+  border-color: transparent transparent transparent #5B9A48;
 }
 
 time {
@@ -580,7 +590,7 @@ time {
 }
 
 .timeline ul li.in-view::after {
-  background: #f45b69;
+  background: #5B9A48;
 }
 
 .timeline ul li div {
@@ -630,7 +640,7 @@ time {
   .timeline ul li:nth-child(even) div::before {
     left: -15px;
     border-width: 8px 16px 8px 0;
-    border-color: transparent #f45b69 transparent transparent;
+    border-color: transparent #5B9A48 transparent transparent;
   }
 }
 

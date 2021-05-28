@@ -1,5 +1,5 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html >
+<html lang="da">
 
 <head>
  <meta charset= "UTF-8">
@@ -15,7 +15,7 @@
 
 <body>
     <header>
-        <a href="index.html" class="logo"> <img src="IMG/NORQi_logo_2021.png"> </a>
+        <a href="index.html" class="logo"> <img alt="NorQi Logo" src="IMG/NORQi_logo_2021.png"> </a>
         <input type="checkbox" id="nav-toggle" class="nav-toggle"><!--Class til mobil menu-->
         <nav>
           <ul>
@@ -35,11 +35,11 @@
     </div>
     </section>
 
-    <section class="background">
+    
 
     <!-- #region content1 -->
 
-    <section class="content1-section">
+    <section class="content1-section background">
       <div class="content1">
         <h2>Nye VR Oplevelser</h2> 
         <h3>For at give potentielle klienter en bedre forståelse og fornemmelse <br>
@@ -48,7 +48,7 @@
           ikke bare køber produkterne uden at prøve dem inden. <br> <br> </h3>
       </div>
       <div class="content1-picture">
-        <img src="IMG/VR-kitchen.png" width="600" height="250">
+        <img alt="billede af 3D køkken" src="IMG/VR-kitchen.png" width="600" height="250">
       </div>
     </section>
 
@@ -65,30 +65,39 @@
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
         <div class="inline">
-        <img src="IMG/poster.png" width="60%">
+        <img class="img-width-60" alt="icon til poster løsning" src="IMG/poster.png">
         <h2>Poster</h2>
         <h3>Poster over gruppens løsning<br>
             som kan bruges til fremstillinger<br>
             i størrelsen A3</h3>
-        <a href ="http://prntscr.com/13eipsh"><button class="produkt-btn">LÆS MERE</button> </a>
+        
+        <form style="display: inline" action="http://prntscr.com/13eipsh" method="get">
+             <button class="produkt-btn">LÆS MERE</button>
+        </form>
     </div>
 
         <div class="inline">
-        <img src="IMG/twitter.png" width="60%">
+        <img class="img-width-60" alt="Icon til twitter løsning" src="IMG/twitter.png">
         <h2>Twitter</h2>
         <h3>Gruppens forslag til NORQi's <br>
             twitter, her er fokus på humor<br>
             som er med til at tiltrække folk.</h3>
-        <a href ="http://prntscr.com/13eiroj"><button class="produkt-btn">LÆS MERE</button> </a>
+        
+
+        <form style="display: inline" action="http://prntscr.com/13eiroj" method="get">
+          <button class="produkt-btn">LÆS MERE</button> 
+        </form>
     </div>
 
         <div class="inline">
-        <img src="IMG/VR-icon.png" width="60%">
+        <img class="img-width-60" alt="Icon til VR løsning" src="IMG/VR-icon.png">
         <h2>VR Oplevelse</h2>
         <h3>Gruppens VR løsning, som er<br>
             med til at give klienter en<br>
             bedre forståelse for produkterne.</h3>
-        <a href ="#"><button class="produkt-btn">LÆS MERE</button> </a>
+        <form style="display: inline" action="http://prntscr.com/13eipsh" method="get">
+          <button class="produkt-btn">LÆS MERE</button> 
+        </form>
     </div>
 </div>
 </div>
@@ -102,30 +111,36 @@
     <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
     <div class="inline">
-    <img src="IMG/twitter.png" width="60%">
+    <img class="img-width-60" alt="Icon til twitter løsning" src="IMG/twitter.png">
     <h2>Twitter</h2>
     <h3>Gruppens forslag til NORQi's <br>
         twitter, her er fokus på humor<br>
         som er med til at tiltrække folk.</h3>
-    <a href ="http://prntscr.com/13eiroj"><button class="produkt-btn">LÆS MERE</button> </a>
+      <form style="display: inline" action="http://prntscr.com/13eiroj" method="get">
+          <button class="produkt-btn">LÆS MERE</button> 
+        </form>
 </div>
 
     <div class="inline">
-    <img src="IMG/VR-icon.png" width="60%">
+    <img class="img-width-60" alt="Icon til VR løsning" src="IMG/VR-icon.png"/>
     <h2>VR Oplevelse</h2>
     <h3>Gruppens VR løsning, som er<br>
         med til at give klienter en<br>
         bedre forståelse for produkterne.</h3>
-    <a href ="#"><button class="produkt-btn">LÆS MERE</button> </a>
+    <form style="display: inline" action="http://prntscr.com/13eiroj" method="get">
+          <button class="produkt-btn">LÆS MERE</button> 
+        </form>
 </div>
 
     <div class="inline">
-    <img src="IMG/styletile-logo.png" width="60%">
+    <img class="img-width-60" alt="icon til styletile løsning" src="IMG/styletile-logo.png">
     <h2>Styletile</h2>
     <h3>Gruppen har udarbejdet et Styletile<br>
         som giver et bedre overblik over <br>
         designet på hjemmesiden.</h3>
-    <a href ="#"><button class="produkt-btn">LÆS MERE</button> </a>
+    <form style="display: inline" action="http://prntscr.com/13eiroj" method="get">
+          <button class="produkt-btn">LÆS MERE</button> 
+        </form>
 </div>
 </div>
 </div>
@@ -134,26 +149,21 @@
 
 
 
-
-
-    </section>
-
-
     <section id="vrFunctions" class="timeline vr-functions">
   <ul>
     <li>
       <div>
-        <h2>Func 1</h2> VR oplevelsen kan gøre 1
+        <h2>Pladsvenlig</h2> Giver en hands-on oplevelse af NorQis produkter uden nødvendigheden af at skulle have produktet ved hånden.
       </div>
     </li>
     <li>
       <div>
-        <h2>Func 2</h2> VR oplevelsen kan gøre 2
+        <h2>Versatile</h2> Kan præsentere alle produkter i et device.
       </div>
     </li>
     <li>
       <div>
-        <h2>Func 3</h2> VR oplevelsen kan gøre 3
+        <h2>Udviklet til fremtiden</h2> VR er på vej frem, og ved at være first mover kan du med hvor det sner.
       </div>
     </li>
     
@@ -161,8 +171,8 @@
 </section>
 
     <!-- #region content3 -->
-    <section class="content3-background">
-    <section class="content3-section">
+    
+    <section class="content3-background content3-section">
       <div class="content3">
         <h2>Interview med professionel kok</h2> <br>
         <h3>Gruppen har lavet et interview med en professionel kok<br>
@@ -182,19 +192,17 @@
 
         <div class="content3-video">
           <iframe width="560" height="280" src="https://www.youtube.com/embed/BuCsr8jO3ow"
-          title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+          title="YouTube video player"  allow="accelerometer; autoplay;
           clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe>
 
 
         </div>
     </section>
-    </section>
+    
     <!-- #endregion -->
   
 <script src="JS/benja.js"></script>
-
-</body>
 
 <footer>
   
@@ -212,11 +220,14 @@
 
     <section class="footer3">
         <h2>SOCIALEMEDIER</h2> <br class="br-mobile">
-        <img src="IMG/facebook.png" width="40" height="40"><h3>facebook.com/norqidk/</h3> <br> <br>
-        <img src="IMG/LinkedIn-logo.png" width="40" height="40"><h3>linkedin.com/company/norqi-nordickitchenequipment/</h3>
+        <img alt="Facebook logo" src="IMG/facebook.png" width="40" height="40"><h3>facebook.com/norqidk/</h3> <br> <br>
+        <img alt="LinkedIn Logo" src="IMG/LinkedIn-logo.png" width="40" height="40"><h3>linkedin.com/company/norqi-nordickitchenequipment/</h3>
     </section>
   
 </footer>
+
+</body>
+
 
 
 
