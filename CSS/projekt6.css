@@ -1,4 +1,8 @@
 @import url('https://fonts.google.com/specimen/Poppins');
+@font-face {
+  font-family: "Poppin";
+  src: url(../poppins/Poppins-Regular.otf);
+}
 
 
 *,
@@ -12,7 +16,7 @@
 *{
     text-decoration: none;
     margin: 0;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppin";
     
 }
 
