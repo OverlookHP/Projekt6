@@ -275,7 +275,7 @@ nav a:hover::before {
   height: 15%;
   display: grid;
   grid-template-columns:  1fr auto minmax(600px, 3fr) 1fr;
-  padding-bottom: 5%;
+  padding-bottom: 1.5%;
 } 
 
 
