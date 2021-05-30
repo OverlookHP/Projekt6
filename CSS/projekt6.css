@@ -1,5 +1,6 @@
 @import url('https://fonts.google.com/specimen/Poppins');
 
+
 *,
 *::before,
 *::after {
@@ -11,7 +12,8 @@
 *{
     text-decoration: none;
     margin: 0;
-    font-family: 'Poppins';
+    font-family: 'Poppins', sans-serif;
+    
 }
 
 /* .background{
